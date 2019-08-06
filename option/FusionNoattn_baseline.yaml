@@ -1,0 +1,35 @@
+logs:
+    dir_logs: logs/vqa/mutan_att_trainval
+    samplingans: True
+coco:
+    dir: /mnt/data/linkaiyi/mscoco
+    arch: fbresnet152
+    size: 224
+model:
+    dim_v: 2048
+    dim_t: 2400
+    seq2vec:
+        arch: skipthoughts
+        dir_st: /home/linkaiyi/fusion_wangtan/Fusion_baseline_att2/data/skip-thoughts
+        type: BayesianUniSkip
+        dropout: 0.25
+        fixed_emb: False
+    fusion:
+        dim_v: 2048
+        dim_t: 2400
+        dim_hv: 1024
+        dim_ht: 1024
+        dim_mm: 1024
+        R: 20
+        dropout_v: 0.25
+        dropout_t: 0.25
+        activation_v: tanh
+        activation_t: tanh
+        dropout_hv: 0
+        dropout_ht: 0
+    classif:
+        dropout: 0
+optim:
+    lr: 0.0001
+    batch_size: 100
+    epochs: 160
