@@ -4,6 +4,12 @@ The offical PyTorch code for paper "Matching Images and Text with Multi-modal Te
 
 ## Introduction
 This is the MTFN-RR, the PyTorch source code for the paper "Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking" from UESTC and the author WangTan is a third-year undergraduated student. The paper will appear in Multimedia 2019, Nice, France. We thanks [MUTAN](https://github.com/cadene/vqa.pytorch) code for great help.
+<br>
+<br>
+
+   ![framework](https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/framework_new.png)
+
+<br>
 
 ### What task does our code (method) solve?
 Our MTFN-RR focuses on the image-text matching problem, that is, retrieving the relevant instances in a different media type from the query, including two typical cross-modal retrieval scenarios: 1) sentence retrieval (I2T), i.e., retrieving groundtruth sentences given a query image; 2) image retrieval (T2I), i.e., retrieving matched images given a query text.
@@ -13,7 +19,9 @@ Our MTFN-RR focuses on the image-text matching problem, that is, retrieving the 
 - We propose a cross-modal reranking module inspired by the reranking scheme in unimodal task. It's a lightweight, easy-used, unsupervised arithmetic module that can be embedded into almost all image-text matching methods, to improve the performance in **a few seconds**.
 - Our model has achieved the best performance on MSCOCO and Flickr30k dataset on cross-modal retrieval task.
 
+<br>
 
+ <img src="https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/intro_example_new2.png" width="60%" />
 
 
 ## Installation and Requirements
@@ -94,3 +102,9 @@ python train.py
 │   ├── option/               /* setting file
 |   ├── vocab/               /vocabuary documents
 ```
+
+### Examples
+<br>
+
+![example](https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/example_.png)
+<br>
