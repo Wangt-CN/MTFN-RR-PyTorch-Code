@@ -1,7 +1,6 @@
 # MTFN-RR PyTorch Code
 The offical PyTorch code for paper "Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking", ACM Multimedia 2019.
-The initial version ...
-
+The paper link : [paper](https://arxiv.org/abs/1908.04011)
 
 ## Introduction
 This is the MTFN-RR, the PyTorch source code for the paper "Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking" from UESTC and the author WangTan is a third-year undergraduated student. The paper will appear in Multimedia 2019, Nice, France. We thanks [MUTAN](https://github.com/cadene/vqa.pytorch) code for great help.
@@ -24,6 +23,12 @@ Our MTFN-RR focuses on the image-text matching problem, that is, retrieving the 
 
  <img src="https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/intro_example_new2.png" width="60%" />
 
+### The State-of-the-art Performance (Untill 2019.06)
+<br>
+
+ <img src="https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/overall_result.png" width="90%" />
+
+More details can be referred to our paper
 
 ## Installation and Requirements
 ### Installation
@@ -109,3 +114,14 @@ python train.py
 
 ![example](https://github.com/Wangt-CN/MTFN-RR-PyTorch-Code/blob/master/fig/example_.png)
 <br>
+
+## Citation
+If you feel this code helpful or use this code, please cite it as
+```
+@article{wang2019matching,
+  title={Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking},
+  author={Wang, Tan and Xu, Xing and Yang, Yang and Hanjalic, Alan and Shen, Heng Tao and Song, Jingkuan},
+  journal={arXiv preprint arXiv:1908.04011},
+  year={2019}
+}
+```
