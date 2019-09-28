@@ -1,5 +1,5 @@
 # MTFN-RR PyTorch Code
-The offical PyTorch code for paper "Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking", ACM Multimedia 2019 Oral.
+The offical PyTorch code for paper "Matching Images and Text with Multi-modal Tensor Fusion and Re-ranking", **ACM Multimedia 2019 Oral**.
 The paper link : [paper](https://arxiv.org/abs/1908.04011)
 
 ## Introduction
